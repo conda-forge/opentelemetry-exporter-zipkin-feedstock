@@ -26,8 +26,8 @@ requirements:
 
 test:
   imports:
-    - src
-    - src.opentelemetry
+    - opentelemetry
+    - opentelemetry.exporter.zipkin
   commands:
     - pip check
   requires:
